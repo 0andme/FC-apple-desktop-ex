@@ -133,8 +133,8 @@ header .search-wrap {
   top: 0;
   left: 0;
   width: 100%;
+  display: none;
 }
-
 header .search {
   max-width: 680px;
   margin: 0 auto;
@@ -223,4 +223,8 @@ header .search .autocomplates ul li:hover a {
 }
 header.searching ul.menu > li {
   display: none;
+}
+
+header.searching .search-wrap {
+  display: block;
 }
